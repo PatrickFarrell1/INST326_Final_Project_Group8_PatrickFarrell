@@ -1,4 +1,14 @@
 def calculate_matches(self):
+
+    """
+    Calculates how many matches are present in a given roll, and then applies 
+    multiplier rule based on which color/value matches are present.
+
+    Returns: the user's score followed by number of matches which will be referenced
+    later for even/odd rule
+
+    Author: Patrick Farrell
+    """
     score = 0
     match_count = 0
 
